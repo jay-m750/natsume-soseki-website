@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* 新增段落背景漸變效果 */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f4f4f4);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 新增圖片樣式 */
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 新增按鈕樣式 */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* 文學風格圖片樣式 */
+#literary-style img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 名言段落樣式 */
+#quotes {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+/* 標題樣式 */
+h2 {
+    color: #35424a;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* 留學經歷圖片樣式 */
+#study-abroad img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 家庭背景圖片樣式 */
+#family-background img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 教育經歷圖片樣式 */
+#education img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 後世評價段落樣式 */
+#legacy {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
